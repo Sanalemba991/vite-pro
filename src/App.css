@@ -1,0 +1,30 @@
+.title {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px; /* Add space below the title */
+   /* Add space above the title */
+  }
+  
+  .planets-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create four columns */
+    grid-gap: 9px; /* Adjust gap between grid items */
+ /* Add padding for better spacing */
+  }
+  
+  .planet-card {
+    padding: 15px;
+    border: 1px solid lightgreen; /* Specify border color */
+   border-radius: px;
+  }
+  
+  .planet-name {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .app-container{
+    background-color: whitesmoke;
+   
+   margin-bottom: 90px;
+  }
